@@ -38,7 +38,7 @@ const PersonalInfo: React.FC = () => {
             validateStatus={meta.touched && meta.error ? "error" : undefined}
             help={meta.touched && meta.error ? meta.error : undefined}
           >
-            <Input {...field} placeholder="MM/DD/YYYY" />
+            <Input {...field} placeholder="DD/MM/YYYY" />
           </MultiForm.Item>
         )}
       </Field>
