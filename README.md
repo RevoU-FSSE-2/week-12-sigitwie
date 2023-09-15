@@ -4,8 +4,16 @@
 
 # React Multi-Step Registration Form
 
-This application is a simple multi-step registration form, built using React, Ant Design, Formik, Yup and Vite.
+This application presents a straightforward multi-stage registration procedure. It systematically guides users through the various phases of the registration process, ensuring they understand each step. Designed for clarity and user-friendliness, the form breaks down the registration into manageable sections, allowing users to complete their registration seamlessly and with ease. This approach not only enhances user experience but also ensures that all necessary details are accurately captured during the process.
 
+## Technologies Used
+- NodeJS
+- React
+- Ant Design
+- Formik
+- Yup
+- Vite
+- Amazon Web Services (AWS) Lightsail
 ## Features
 
 - **Multi-step Form**: The form comprises 3 steps, namely Personal Information, Address Information, and Account Information.
@@ -34,6 +42,6 @@ Validation plays a crucial role in ensuring data integrity. This application use
   - Password should be at least 8 characters long, alphanumeric, and is required.
 
 ## Deployment
-
+This app has been succesfully deployed using AWS Lightsail. You can access it trough this link 👉 [w12.eswe.dev](http://w12.eswe.dev)
 
 ---
